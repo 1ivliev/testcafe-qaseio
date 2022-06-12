@@ -1,0 +1,16 @@
+{
+  "name": "testcafe-qaseio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx testcafe chrome test.js test2.js -r spec,qase -s path=screenshots,takeOnFails=true,fullPage=true"
+  },
+  "keywords": [],
+  "author": "Kirill Ivliev",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.19.0",
+    "testcafe-reporter-qase": "^1.2.0-alpha.2"
+  }
+}
