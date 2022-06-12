@@ -22,3 +22,6 @@ For execute:
 ```
 npm test
 ```
+<p align="center">
+  <img src="./screenshot.png">
+</p>
